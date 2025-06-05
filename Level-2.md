@@ -14,7 +14,7 @@ Password: (password from Level 1)
 ls
 ```
 ```bash
-cat 'spaces in this filename'  # Wrap filename in quotes
+cat 'spaces in this filename'  # Wrap filename in quotes or double quotes as terminal sees spaces as delimiter and thus will interpret hi hello as 2 different file names in cat hi hello
 ```
 
 ---
