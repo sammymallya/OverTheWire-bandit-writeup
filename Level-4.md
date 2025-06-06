@@ -40,7 +40,8 @@ file -- *
 ```
 and now that we got the data type of all files, and we are looking for ASCII datatype file, we find it and use cat to open it and get the password to the next level
 ```bash
-cat <human-readable-file>  # Replace with the actual filename
+cat -- <human-readable-file>  # Replace with the actual filename
+#we use -- since filename starts with -
 ```
 
 ---
